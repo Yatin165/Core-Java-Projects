@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args)  {
+
+		PanCardApplication p1 = new PanCardApplication(15, "Amit", false, true);
+		PanCardApplication p2 = new PanCardApplication(21, "Ashu", true, true);
+		
+		
+		try {
+			p1.ageVerification();
+		    p1.medicalCheckup();
+		    p1.policeVerification();
+		}catch(Exception e) {
+			System.out.println("Error occured");
+		}
+	}
+
+}

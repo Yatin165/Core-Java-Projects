@@ -1,0 +1,13 @@
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class MedicalCheckupException extends Exception {
+	
+	Log logger = LogFactory.getLog(DrivingLicenseApplication.class);
+	
+	public MedicalCheckupException(String exp) {
+		super(exp);
+		logger.info("Medical verification failed");
+	}
+
+}

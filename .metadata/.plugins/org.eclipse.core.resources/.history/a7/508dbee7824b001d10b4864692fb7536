@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		PassPortApplication p1 = new PassPortApplication(21, "Bob", "Indian");
+		p1.checkEligibility();
+	}
+
+}

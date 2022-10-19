@@ -1,0 +1,8 @@
+
+F
+java:S1220""Move this file to a named package.H”RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(š²ÿ®ûÿÿÿÿ8”’ü†½0HžRMAJORZ
+CODE_SMELL
+U
+java:S5960"+Remove this assertion from production code.(ÈØ˜ÑúÿÿÿÿH—RMAJORZBUG

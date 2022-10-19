@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		PassPortApplication p1 = new PassPortApplication(21, "Bob", "Indian");
+		PassPortApplication p2 = new PassPortApplication(21, "Jack", "Indian");
+		PassPortApplication p3 = new PassPortApplication(17, "Raman", "Indian");
+		PassPortApplication p4 = new PassPortApplication(30, "Akshay", "Canada");
+		
+		
+		p1.checkEligibility();
+		p2.checkEligibility();
+		p3.checkEligibility();
+		p4.checkEligibility();
+	}
+
+}

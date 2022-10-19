@@ -1,0 +1,26 @@
+package com.program2;
+
+import java.util.Map;
+import java.util.TreeMap;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee(12, "Kartik", 25000);
+		Employee e2 = new Employee(13, "Kuldeep", 24000);
+		Employee e3 = new Employee(17, "Nitin", 30000);
+		Employee e4 = new Employee(19, "Akarsh", 20000);
+
+		Map<Double, Employee> emp = new TreeMap<>();
+
+		emp.put(e1.getSalary(), e1);
+		emp.put(e2.getSalary(), e2);
+		emp.put(e3.getSalary(), e3);
+		emp.put(e4.getSalary(), e4);
+
+		System.out.println(emp);
+
+	}
+
+}

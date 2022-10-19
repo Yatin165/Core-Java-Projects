@@ -1,0 +1,8 @@
+
+public class AgeException extends Exception{
+	
+	void AgeException() {
+		System.out.println("Age Exception occured");
+	}
+
+}

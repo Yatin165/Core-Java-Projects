@@ -1,0 +1,14 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class PassPortApplicationTest {
+
+	@Test
+     void PassPortApplicationTest() {
+		PassPortApplication p1 = new PassPortApplication(21, "Bob", "Indian");
+		int actual = p1.checkEligibility();
+		assertEquals(0, actual);
+	}
+
+}

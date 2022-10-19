@@ -1,0 +1,13 @@
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class AgeException extends Exception{
+	
+	Log logger = LogFactory.getLog(PanCardApplication.class);
+	
+	public AgeException(String exp) {
+		super(exp);
+		Log logger = LogFactory.getLog(PanCardApplication.class);
+	}
+
+}

@@ -1,0 +1,19 @@
+
+v
+java:S1192	"GDefine a constant instead of duplicating this literal "Indian" 4 times.(ÀêÿşH	RCRITICALZ
+CODE_SMELL
+F
+java:S1220""Move this file to a named package.H”	RMINORZ
+CODE_SMELL
+~	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïßåõÿÿÿÿÿH•	RMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ¼·ÖH–	RMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ€ñH—	RMINORZ
+CODE_SMELL
+y	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š…İÈH˜	RMINORZ
+CODE_SMELL
+y	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥ÒöÌH™	RMINORZ
+CODE_SMELL
+U
+java:S5960"+Remove this assertion from production code.(±×îâÿÿÿÿÿHš	RMAJORZBUG

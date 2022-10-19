@@ -1,0 +1,26 @@
+13-Oct-2022 12:13:16 INFO - Application applied by Amit
+13-Oct-2022 12:13:16 INFO - Verifying Age
+13-Oct-2022 12:13:16 INFO - Age verification successful
+13-Oct-2022 12:13:16 INFO - Doing Medical Checkup
+13-Oct-2022 12:13:16 INFO - Medical Checkup Successful
+13-Oct-2022 12:13:16 INFO - Doing Police Verificaiton
+13-Oct-2022 12:13:16 INFO - Police Verificaiton successful
+13-Oct-2022 12:13:16 INFO - Application applied by Ashu
+13-Oct-2022 12:13:16 INFO - Verifying Age
+13-Oct-2022 12:13:16 INFO - Age verification successful
+13-Oct-2022 12:13:16 INFO - Doing Medical Checkup
+13-Oct-2022 12:13:16 INFO - Medical Checkup Successful
+13-Oct-2022 12:13:16 INFO - Doing Police Verificaiton
+13-Oct-2022 12:13:16 INFO - Police Verificaiton successful
+13-Oct-2022 12:14:35 INFO - Application applied by Amit
+13-Oct-2022 12:14:35 INFO - Verifying Age
+13-Oct-2022 12:14:35 INFO - Age verification successful
+13-Oct-2022 12:14:35 INFO - Doing Medical Checkup
+13-Oct-2022 12:14:35 INFO - Police Verificaiton failed
+13-Oct-2022 12:14:35 INFO - Application applied by Ashu
+13-Oct-2022 12:14:35 INFO - Verifying Age
+13-Oct-2022 12:14:35 INFO - Age verification successful
+13-Oct-2022 12:14:35 INFO - Doing Medical Checkup
+13-Oct-2022 12:14:35 INFO - Medical Checkup Successful
+13-Oct-2022 12:14:35 INFO - Doing Police Verificaiton
+13-Oct-2022 12:14:35 INFO - Police Verificaiton successful

@@ -1,0 +1,20 @@
+13-Oct-2022 12:09:32 INFO - Application applied
+13-Oct-2022 12:09:32 INFO - Application applied
+13-Oct-2022 12:09:32 INFO - Verifying Age
+13-Oct-2022 12:09:32 INFO - Age verification failed due to age is less than 18
+13-Oct-2022 12:09:32 INFO - Verifying Age
+13-Oct-2022 12:09:32 INFO - Age verification successful
+13-Oct-2022 12:09:32 INFO - Doing Medical Checkup
+13-Oct-2022 12:09:32 INFO - Medical Checkup Successful
+13-Oct-2022 12:09:32 INFO - Doing Police Verificaiton
+13-Oct-2022 12:09:32 INFO - Police Verificaiton successful
+13-Oct-2022 12:11:26 INFO - Application applied by Amit
+13-Oct-2022 12:11:26 INFO - Verifying Age
+13-Oct-2022 12:11:26 INFO - Age verification failed due to age is less than 18
+13-Oct-2022 12:11:26 INFO - Application applied by Ashu
+13-Oct-2022 12:11:26 INFO - Verifying Age
+13-Oct-2022 12:11:26 INFO - Age verification successful
+13-Oct-2022 12:11:26 INFO - Doing Medical Checkup
+13-Oct-2022 12:11:26 INFO - Medical Checkup Successful
+13-Oct-2022 12:11:26 INFO - Doing Police Verificaiton
+13-Oct-2022 12:11:26 INFO - Police Verificaiton successful

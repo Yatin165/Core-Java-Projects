@@ -1,0 +1,7 @@
+
+public class PoliceVerificaitonExcepiton extends Exception {
+
+	public PoliceVerificaitonExcepiton (String exp) {
+		super(exp);
+	}
+}

@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class PassPortApplication {
+
+	private int age;
+	private String name;
+	private String nationality;
+	
+	
+	
+	
+	
+	public PassPortApplication(int age, String name, String nationality) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.nationality = nationality;
+	}
+	
+	public void checkEligibility() {
+		if(this.name == "Bob" || this.name == "Jack") {
+			System.out.println("Your application is rejected");
+		}else { 
+			if(this.age>18 && this.nationality == "Indian") {
+				System.out.println("Your Applicaiton is accepted");
+			}else System.out.println("Your Application is Rejected");
+		}
+	}
+	
+	
+}

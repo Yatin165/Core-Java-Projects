@@ -1,0 +1,8 @@
+
+public class MedicalCheckupException extends Exception {
+	
+	public MedicalCheckupException(String exp) {
+		super(exp);
+	}
+
+}

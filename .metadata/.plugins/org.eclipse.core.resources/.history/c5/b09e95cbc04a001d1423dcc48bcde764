@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+
+		PanCardApplication p1 = new PanCardApplication(15, "Amit", false, true);
+		PanCardApplication p2 = new PanCardApplication(21, "Ashu", true, true);
+		PanCardApplication p3 = new PanCardApplication(25, "kartik", true, true);
+		PanCardApplication p4 = new PanCardApplication(17, "Amit", true, true);
+		
+		p1.ageVerification();
+		p1.medicalCheckup();
+		p1.policeVerification();
+	}
+
+}

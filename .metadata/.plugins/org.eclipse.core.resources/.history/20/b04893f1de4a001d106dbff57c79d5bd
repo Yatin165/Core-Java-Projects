@@ -1,0 +1,20 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DrivingLicenseApplicationTest {
+
+	@Test
+	void ageVerificationFailureTest() {
+		DrivingLicenseApplication dl = new DrivingLicenseApplication(17, "abc", true, false);
+		assertThrows(AgeException.class, () -> dl.ageVerification());
+	}
+	
+	void ageVerificationSuccessTest() throws AgeException {
+		DrivingLicenseApplication dl = new DrivingLicenseApplication(21, "abc", true, false);
+		boolean expected = true;
+		boolean real = dl.ageVerification();
+		assertEquals(expected,real);
+	}
+
+}

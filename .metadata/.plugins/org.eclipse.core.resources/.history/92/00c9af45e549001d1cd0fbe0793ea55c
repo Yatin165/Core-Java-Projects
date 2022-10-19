@@ -1,0 +1,40 @@
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.function.Predicate;
+import java.util.stream.Collectors;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Employee e1 = new Employee(112, 10000,"Sanjit");
+		Employee e2 = new Employee(113, 30000,"Aakarsh");
+		Employee e3 = new Employee(114, 15000,"Yatin");
+		Employee e4 = new Employee(115, 20000,"Sachin");
+		Employee e5 = new Employee(116, 18000,"Kartik");
+ 
+		List<Employee> ls = new ArrayList<>();
+		ls.add(e1);
+		ls.add(e2);
+		ls.add(e3);
+		ls.add(e4);
+		ls.add(e5);
+		
+		
+		
+		
+		
+		System.out.println(ls);
+		
+		
+		
+		List<Employee> newls = ls.stream().filter((Employee) -> Employee.getSalary() < 20000).collect(Collectors.toList());
+		
+		System.out.println(newls);
+		
+		
+	}
+
+}

@@ -1,0 +1,49 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class PassPortApplication {
+	static List<String> ls = new ArrayList<>();
+	static {
+		ls.add("Bob");
+		ls.add("Jack");
+	}
+
+	Log logger = LogFactory.getLog(PassPortApplication.class);
+	
+	private int age;
+	private String name;
+	private String nationality;
+	
+	
+	
+	public PassPortApplication(int age, String name, String nationality) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.nationality = nationality;
+		logger.error("Application applied by " + this.name);
+		
+	}
+	
+	
+	public void checkEligibility() {
+		logger.error("Checking Eligibility");
+		if(this.name == "Bob" || this.name == "Jack") {
+			System.out.println("Your application is Rejected");
+			logger.error("Application Rejected due to criminal records");
+		}else { 
+			if(this.age>18 && this.nationality == "Indian") {
+				System.out.println("Your Applicaiton is Accepted");
+				logger.error("Applicaiton Accepted");
+			}else {
+				System.out.println("Your Application is Rejected");
+				logger.error("Applicaiton Rejected due to Age or Natinality issue");
+			}
+		}
+	}
+	
+	
+}

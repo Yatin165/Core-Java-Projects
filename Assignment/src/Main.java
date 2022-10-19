@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collection.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Employee e1 = new Employee(112, 10000,"Sanjit");
+		Employee e2 = new Employee(113, 30000,"Aakarsh");
+		Employee e3 = new Employee(114, 15000,"Yatin");
+		Employee e4 = new Employee(117, 20000,"Sachin");
+		Employee e5 = new Employee(116, 18000,"Kartik");
+		
+		List<Employee> list = new ArrayList<>();
+		list.add(e1);
+		list.add(e2);
+		list.add(e3);
+		list.add(e4);
+		list.add(e5);
+		System.out.println(list);
+		
+		Set<Employee> set = new HashSet<>();
+		
+		for (Employee employee : list) {
+			set.add(employee);
+		}
+		
+		System.out.println(set);
+		/*Collections.sort(list,Collections.reverseOrder((x,y) -> x.getId() - y.getId()));
+		System.out.println(list);*/
+		//Set<Employee> eset = list.stream().collect(Collectors.toSet());
+		//System.out.println(eset);
+	}
+
+}

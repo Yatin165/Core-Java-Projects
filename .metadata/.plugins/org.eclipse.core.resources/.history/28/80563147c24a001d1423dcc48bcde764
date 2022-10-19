@@ -1,0 +1,28 @@
+
+public class Main {
+
+	public static void main(String[] args)  {
+
+		DrivingLicenseApplication p1 = new DrivingLicenseApplication(15, "Amit", false, true);
+		
+		try {
+			p1.ageVerification();
+		    p1.medicalCheckup();
+		    p1.policeVerification();
+		}catch(Exception e) {
+			System.out.println("Error occured");
+		}
+		
+		
+		DrivingLicenseApplication p2 = new DrivingLicenseApplication(21, "Ashu", true, true);
+		
+		try {
+		p2.ageVerification();
+		p2.medicalCheckup();
+		p2.policeVerification();
+		}catch(Exception e) {
+			System.out.println("Error occured");
+		}
+	}
+
+}

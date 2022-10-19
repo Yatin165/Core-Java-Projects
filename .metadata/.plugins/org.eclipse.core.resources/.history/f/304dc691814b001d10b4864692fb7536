@@ -1,0 +1,20 @@
+import java.util.List;
+import java.util.ArrayList;
+public class PassPortApplication {
+
+	private int age;
+	private String name;
+	private String nationality;
+	List<String> criminals = new ArrayList<>();
+	
+	
+	
+	public PassPortApplication(int age, String name, String nationality) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.nationality = nationality;
+	}
+	
+	
+}

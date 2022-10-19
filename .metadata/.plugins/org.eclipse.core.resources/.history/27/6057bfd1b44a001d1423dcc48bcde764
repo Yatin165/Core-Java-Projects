@@ -1,0 +1,13 @@
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+public class Main {
+
+	public static void main(String[] args) {
+		static Log logger = LogFactory.getLog(Main.class);
+
+		UserAuthentication user = new UserAuthentication();
+		user.loginUser(" ", "mu");
+	}
+
+}

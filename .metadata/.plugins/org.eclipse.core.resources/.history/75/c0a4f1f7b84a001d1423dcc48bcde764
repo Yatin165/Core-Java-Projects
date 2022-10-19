@@ -1,0 +1,18 @@
+
+public class PanCardApplication {
+	
+	private int age;
+	private String name;
+	private boolean medicalcheckup;
+	private String pannumber;
+	
+	
+	public void ageVerification() {
+		if(this.age < 18) {
+			throw AgeException;
+		}
+	}
+	
+	
+
+}

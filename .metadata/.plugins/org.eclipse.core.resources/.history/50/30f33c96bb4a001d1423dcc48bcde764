@@ -1,0 +1,47 @@
+
+public class PanCardApplication {
+	
+	private int age;
+	private String name;
+	private boolean medicalcheckup;
+	private boolean policeverification;
+	private String pannumber;
+	
+	
+	public PanCardApplication(int age, String name, boolean medicalcheckup, boolean policeverification) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.medicalcheckup = medicalcheckup;
+		this.policeverification = policeverification;
+	}
+
+	
+	
+	
+	public void ageVerification() throws AgeException {
+		if(this.age < 18) {
+			throw new AgeException("Age is less than 18");
+		}else {
+			System.out.println("AgeVerification successful");
+		}
+	}
+	
+	public void medicalCheckup() throws MedicalCheckupException {
+		if(this.medicalcheckup = false) {
+			throw new MedicalCheckupException("Medical Exception Failed");
+		}else {
+			System.out.println("Medical checkup successful");
+		}
+	}
+	
+	
+	public void policeVerification() throws PoliceVerificaitonExcepiton {
+		if(this.policeverification = false) {
+			throw  new PoliceVerificaitonExcepiton("Police Verification Not Successful");
+		}else {
+			System.out.println("Police Verificaiton successful");
+		}
+	}
+
+}

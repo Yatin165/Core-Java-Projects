@@ -1,0 +1,28 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class DrivingLicenseApplicationTest {
+
+	DrivingLicenseApplication dl;
+	
+	@BeforeEach
+	void beforEach() {
+		dl = new DrivingLicenseApplication(17, "ABC", false, false);
+		System.out.println("dl created");
+	}
+	
+	@Test
+	void ageVerificationTest() {
+		assertThrows(AgeException.class, () -> dl.ageVerification());
+	}
+	
+	@Test
+	void medicalCheckup() {
+		assertThrows(MedicalCheckupException.class, () -> dl.ageVerification());
+	}
+	
+	
+
+}

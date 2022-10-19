@@ -1,0 +1,53 @@
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.commons.configuration2.PropertiesConfiguration;
+import org.apache.commons.configuration2.builder.fluent.Configurations;
+import org.apache.commons.configuration2.ex.ConfigurationException;
+
+
+public class Main {
+
+	public static void main(String[] args) throws ConfigurationException {
+		
+		Employee e1 = new Employee(112, 10000,"Sanjit");
+		Employee e2 = new Employee(113, 30000,"Aakarsh");
+		Employee e3 = new Employee(114, 15000,"Yatin");
+		Employee e4 = new Employee(115, 20000,"Sachin");
+		Employee e5 = new Employee(116, 18000,"Kartik");
+		
+		Configurations configuration = new Configurations();
+		PropertiesConfiguration config = configuration.properties("configuration.properties");
+		String bonus = (String)config.getProperty("bonus");
+		System.out.println(bonus);
+ 
+		List<Employee> ls = new ArrayList<>();
+		ls.add(e1);
+		ls.add(e2);
+		ls.add(e3);
+		ls.add(e4);
+		ls.add(e5);
+		List<Employee> newls = new ArrayList<>();
+		
+		for (Employee employee : ls) {
+			if(employee.getSalary() < 20000) {
+				employee.setSalary(employee.getSalary() + bonus);
+				newls.add(employee);
+			}
+		}
+		
+		
+		for (Employee employee : newls) {
+			System.out.println(employee);
+		}
+		
+		
+	}
+
+}
+
+
+
+
+
+//ls.stream().filter((e) -> e.getSalary() < 2000 ).forEach(e -> e.setSalary(e.getSalary()+5000));

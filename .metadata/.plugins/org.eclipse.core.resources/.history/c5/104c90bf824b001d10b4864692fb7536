@@ -1,0 +1,25 @@
+
+public class PassPortApplication {
+
+	private int age;
+	private String name;
+	private String nationality;
+	
+	List<String>  s = new ArrayList<String>();
+	s.
+	
+	
+	
+	public PassPortApplication(int age, String name, String nationality) {
+		super();
+		this.age = age;
+		this.name = name;
+		this.nationality = nationality;
+	}
+	
+	public void checkEligibility(int age,String name,String nationality) {
+		if(name == cri.s1)
+	}
+	
+	
+}

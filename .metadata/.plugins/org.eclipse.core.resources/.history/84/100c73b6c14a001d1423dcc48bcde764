@@ -1,0 +1,10 @@
+13-Oct-2022 12:06:25 INFO - Application applied
+13-Oct-2022 12:06:25 INFO - Application applied
+13-Oct-2022 12:06:25 INFO - Verifying Age
+13-Oct-2022 12:06:25 INFO - Age verification failed due to age is less than 18
+13-Oct-2022 12:06:25 INFO - Verifying Age
+13-Oct-2022 12:06:25 INFO - Age verification successful
+13-Oct-2022 12:06:25 INFO - Doing Medical Checkup
+13-Oct-2022 12:06:25 INFO - Medical Checkup Successful
+13-Oct-2022 12:06:25 INFO - Doing Police Verificaiton
+13-Oct-2022 12:06:25 INFO - Police Verificaiton successful
